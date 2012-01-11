@@ -15,3 +15,5 @@ sub example {
 
 	print Dumper(\%args);
 }
+
+example( argument2 => 'cusomized yo', awesomeness => 10);
